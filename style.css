@@ -1,0 +1,83 @@
+/* 🌐 بنیادی سیٹنگز */
+body {
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: right;
+}
+
+/* 📦 مین کنٹینر */
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+/* 🧾 ہیڈنگ */
+h1, h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* 📝 انپٹ، سلیکٹ، بٹن */
+input[type="email"],
+input[type="password"],
+input[type="file"],
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  margin-left: 5px;
+}
+
+/* ✅ بٹن */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+/* 📄 آؤٹ پٹ */
+#paper-output {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px dashed #888;
+  background: #fffefa;
+  border-radius: 5px;
+}
+
+/* ❗ الرٹ یا پیغام */
+.alert {
+  padding: 10px;
+  background: #ffeeba;
+  border: 1px solid #f5c6cb;
+  color: #856404;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* 📱 ریسپانسیو لے آؤٹ */
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 10px;
+    padding: 15px;
+  }
+}
