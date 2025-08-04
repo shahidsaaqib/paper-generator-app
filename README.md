@@ -1,1 +1,0 @@
-# paper-generator-app
